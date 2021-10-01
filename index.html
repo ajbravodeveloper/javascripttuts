@@ -26,21 +26,21 @@
     </div>
     <script>
       //1. ways to print in javascript
-      //   alert("me");
-      //   document.write("I am the DEVIL");
+        alert("me");
+        document.write("I am the DEVIL");
 
       //2. JAVASCRIPT CONSOLE API
-      // console.log("Hi ajbravo!!!!!1", 7-8, "hi");
-      // console.warn("this is a warning");
-      // console.error("This is an error");
-      // console.clear();
-      // console.assert(5 == 9);
+      console.log("Hi ajbravo!!!!!1", 7-8, "hi");
+      console.warn("this is a warning");
+      console.error("This is an error");
+      console.clear();
+      console.assert(5 == 9);
 
       // 3. Variables
       var n1 = 34;
       var n2 = 66;
-      // document.write(n1 +n2);
-      // console.log(n1 + n2);
+      document.write(n1 +n2);
+      console.log(n1 + n2);
 
       //4. Data types in js
       // 1. numbers
@@ -48,42 +48,42 @@
       // 2. strings
 
       // 3. objects
-      // var marks = {
-      //   aj: 34,
-      //   ya: 32,
-      //   ty: 78,
-      //   we: 89,
-      // };
-      // console.log(marks);
+      var marks = {
+        aj: 34,
+        ya: 32,
+        ty: 78,
+        we: 89,
+      };
+      console.log(marks);
 
       //booleans
-      // var n3 = true;
-      // var n4 = false;
-      // console.log(n3, n4);
+      var n3 = true;
+      var n4 = false;
+      console.log(n3, n4);
 
-      // var und;
-      // console.log(und);
+      var und;
+      console.log(und);
 
-      // var n = null;
-      // console.log(n);
+      var n = null;
+      console.log(n);
 
       // Two types of data types are primitive and refrence data types
 
-      // var arr = [1, 2, "dablu", 4, 5];
-      // console.log(arr[2]);
+      var arr = [1, 2, "dablu", 4, 5];
+      console.log(arr[2]);
 
-      // function avg(a, b, c) {
-      //   return (a + b + c) / 2;
-      // }
-      // c = avg(2, 7, 8);
-      // c1 = avg(8, 6, 8);
-      // console.log(c);
-      // console.log(c1);
-      // document.write(c1);
+      function avg(a, b, c) {
+        return (a + b + c) / 2;
+      }
+      c = avg(2, 7, 8);
+      c1 = avg(8, 6, 8);
+      console.log(c);
+      console.log(c1);
+      document.write(c1);
 
       //conditions
       //if-else statement
-      /*
+      
       var age = 5;
       if (age >= 8) {
         console.log("You are not a kid");
@@ -100,71 +100,71 @@
         console.log("HIYO");
       }
       console.log("end of a ladder");
-*/
+
 
       //loops
 
-      // var arr = [1, 2, 3, 4, 5, 6, 7];
-      // // console.log(arr);
+      var arr = [1, 2, 3, 4, 5, 6, 7];
+      // console.log(arr);
 
-      // for (var i = 0; i < arr.length; i++) {
-      //   if (i == 2) {
-      //     break;
-      //   }
+      for (var i = 0; i < arr.length; i++) {
+        if (i == 2) {
+          break;
+        }
 
-      //   console.log(arr[i]);
-      // }
-      // arr.forEach(function (Element) {
-      //     console.log(Element);
-      // });
+        console.log(arr[i]);
+      }
+      arr.forEach(function (Element) {
+          console.log(Element);
+      });
 
-      // let j = 0;
-      // while (j<arr.length ) {
-      //   console.log(arr[j]);
-      //   j++;
-      // }
+      let j = 0;
+      while (j<arr.length ) {
+        console.log(arr[j]);
+        j++;
+      }
 
       let cisArray = ["Barry", "Iris", "Caitlin", 56, null, true];
       //Array methods
-      //console.log(cisArray.length);
-      // cisArray.pop();
-      //cisArray.push("H.R.");
-      //cisArray.shift();
-      //cisArray.unshift("flash")
-      //const nl = cisArray.unshift("flash")
-      //console.log(nl)
-      //cisArray.toString();
-      // console.log(cisArray);
+      console.log(cisArray.length);
+      cisArray.pop();
+      cisArray.push("H.R.");
+      cisArray.shift();
+      cisArray.unshift("flash")
+      const nl = cisArray.unshift("flash")
+      console.log(nl)
+      cisArray.toString();
+      console.log(cisArray);
 
       //String methods
       let theflash = "I'm the fastest man alive";
-      // console.log(theflash.length)
-      // console.log(theflash.indexOf("fastest"))
-      //   console.log(theflash.slice(0, 3));
-      //  a =  theflash.replace("I'm", "Im")
-      //   console.log(a, theflash);
+      console.log(theflash.length)
+      console.log(theflash.indexOf("fastest"))
+        console.log(theflash.slice(0, 3));
+       a =  theflash.replace("I'm", "Im")
+        console.log(a, theflash);
 
       let FlashTime = new Date();
-      // console.log(FlashTime);
-      // console.log(FlashTime.getTime());
-      // console.log(FlashTime.getMinutes());
-      // console.log(FlashTime.getDate());
-      // console.log(FlashTime.getHours());
-      // console.log(FlashTime.getFullYear());
+      console.log(FlashTime);
+      console.log(FlashTime.getTime());
+      console.log(FlashTime.getMinutes());
+      console.log(FlashTime.getDate());
+      console.log(FlashTime.getHours());
+      console.log(FlashTime.getFullYear());
 
       //DOM manipulation
 
       let ele = document.getElementById("click");
-      //console.log(ele);
+      console.log(ele);
 
       let eleclass = document.getElementsByClassName("container");
-      // console.log(eleclass);
-      //  eleclass[0].style.background = "red"
-      // eleclass[0].classList.add("bg-primary");
-      // console.log(eleclass[0].innerText);
-      // console.log(eleclass[0].innerHTML);
-      // console.log(ele.innerHTML);
-      // console.log(ele.innerText);
+      console.log(eleclass);
+       eleclass[0].style.background = "red"
+      eleclass[0].classList.add("bg-primary");
+      console.log(eleclass[0].innerText);
+      console.log(eleclass[0].innerHTML);
+      console.log(ele.innerHTML);
+      console.log(ele.innerText);
       rt = document.getElementsByTagName("Button");
       qrt = document.getElementsByTagName("div");
       console.log(rt);
